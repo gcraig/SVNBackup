@@ -17,6 +17,7 @@ Eventually, an in place Grandfather-Father-Son incremental/full backup scheme, w
 
 Update the values in svnbackup.py to:
 
+```
 TEMP_DIR = r'tmp'
 REPO_PATH = r'n:\svn'
 REPO_NAME = r'repo_name'
@@ -24,8 +25,9 @@ DEPLOY_DIR = r'\\10.0.0.1\backups\svn'
 EMAIL_FROM = r'svnbackup@yourcompany.com'
 EMAIL_SUB = r'SVN Backup Report'
 BACKUPS = 7 # of daily backups to keep, purges older versions
+```
 
-## Run svnbackup.py via a scheduler, i.e., cron.
+## Run 'svnbackup.py' via a scheduler, i.e., cron.
 
 ## Enhancements:
 
@@ -33,4 +35,4 @@ BACKUPS = 7 # of daily backups to keep, purges older versions
 - Checksum verification
 - Transfer/resume for remote backups. I.e., rsync.
 
-## Copyright 2014. George Craig. All rights reserved
+#### Copyright 2014. George Craig. All rights reserved
