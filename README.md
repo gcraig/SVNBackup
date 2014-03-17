@@ -34,6 +34,4 @@ BACKUPS = 7 # of daily backups to keep, purges older versions
 - Separate svnbackup configuration
 - Checksum verification
 - Transfer/resume for remote backups. I.e., rsync.
-
-#### Copyright 2014. George Craig. All rights reserved
-#### MIT License
+- GUI/web interface
